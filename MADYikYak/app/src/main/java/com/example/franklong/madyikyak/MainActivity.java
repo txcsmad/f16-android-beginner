@@ -3,6 +3,8 @@ package com.example.franklong.madyikyak;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
@@ -12,9 +14,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ListView javaListView;
+    private RecyclerView javaRecyclerView;
     private ArrayList<String> posts;
-    private ArrayAdapter<String> mAdapter;
+    private PostAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +33,22 @@ public class MainActivity extends AppCompatActivity {
         posts.add("Ali is an awful human being");
 
 
-        javaListView = (ListView) findViewById(R.id.feed);
-        mAdapter = new ArrayAdapter<String>(this, R.layout.list_item, R.id.post_text, posts);
-        javaListView.setAdapter(mAdapter);
+        javaRecyclerView = (RecyclerView) findViewById(R.id.feed);
+        mAdapter = new PostAdapter(posts);
+
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        javaRecyclerView.setLayoutManager(linearLayoutManager);
+
+        javaRecyclerView.setAdapter(mAdapter);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();  // Always call the superclass method first
+        String newPost = getIntent().getStringExtra("input");
+        if(newPost != null) posts.add(newPost);
+        mAdapter.notifyDataSetChanged();
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
