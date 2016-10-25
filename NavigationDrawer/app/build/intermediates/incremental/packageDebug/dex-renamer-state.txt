@@ -1,0 +1,7 @@
+#Tue Oct 25 14:13:42 CDT 2016
+base.0=/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59c877082ae669bdeb92bf2efa710604f73f9e6c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e70c305b3d01ba3c171ed0a5de3d7ff4c9732165/classes.dex
+base.1=/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e70c305b3d01ba3c171ed0a5de3d7ff4c9732165
+file.0=/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59c877082ae669bdeb92bf2efa710604f73f9e6c/classes.dex

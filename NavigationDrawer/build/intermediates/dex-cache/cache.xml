@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_7ba99b74cc13c60be3ebd54fb66978b3b666f760/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f570ec27a9b81320387b549991e37bf2f009a612">
+        <dex dex="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e70c305b3d01ba3c171ed0a5de3d7ff4c9732165/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/franklong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_b8b64fa70b80dacdb00829ef2ed2bf155b605334/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="392b0439f201b308fa5a9cd37b1630f5a746c3e3">
+        <dex dex="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59c877082ae669bdeb92bf2efa710604f73f9e6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_1fb22377dde71bdbf5ea9ef4b183319791f32806/classes.dex" />
+    </item>
+
+</items>

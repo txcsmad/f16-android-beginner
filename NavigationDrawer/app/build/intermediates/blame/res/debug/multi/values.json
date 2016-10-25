@@ -1,0 +1,123 @@
+[
+    {
+        "outputFile": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 11,
+                    "endColumn": 19,
+                    "endOffset": 333
+                },
+                "from": {
+                    "file": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 683,
+                        "endLine": 27,
+                        "endColumn": 19,
+                        "endOffset": 961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 338,
+                    "endColumn": 55,
+                    "endOffset": 389
+                },
+                "from": {
+                    "file": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1094,
+                        "endColumn": 55,
+                        "endOffset": 1145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 394,
+                    "endColumn": 62,
+                    "endOffset": 452
+                },
+                "from": {
+                    "file": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 620,
+                        "endColumn": 62,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 457,
+                    "endColumn": 86,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1150,
+                        "endColumn": 86,
+                        "endOffset": 1232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 64,
+                    "endOffset": 604
+                },
+                "from": {
+                    "file": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1029,
+                        "endColumn": 64,
+                        "endOffset": 1089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 609,
+                    "endColumn": 62,
+                    "endOffset": 667
+                },
+                "from": {
+                    "file": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 966,
+                        "endColumn": 62,
+                        "endOffset": 1024
+                    }
+                }
+            }
+        ]
+    }
+]

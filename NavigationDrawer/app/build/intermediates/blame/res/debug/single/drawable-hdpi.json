@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable-hdpi/drawer_shadow.9.png",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable-hdpi/drawer_shadow.9.png"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_drawer.png",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable-hdpi/ic_drawer.png"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable-hdpi/action_search.png",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable-hdpi/action_search.png"
+    }
+]

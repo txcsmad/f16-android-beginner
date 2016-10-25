@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/earth.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/earth.jpg"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/jupiter.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/jupiter.jpg"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/mercury.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/mercury.jpg"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/mars.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/mars.jpg"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/saturn.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/saturn.jpg"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/venus.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/venus.jpg"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/neptune.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/neptune.jpg"
+    },
+    {
+        "merged": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/build/intermediates/res/merged/debug/drawable/uranus.jpg",
+        "source": "/Users/franklong/Desktop/f16-android-beginner/NavigationDrawer/app/src/main/res/drawable/uranus.jpg"
+    }
+]
