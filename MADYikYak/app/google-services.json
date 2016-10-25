@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "188721151525",
+    "firebase_url": "https://yikyak-8aecd.firebaseio.com",
+    "project_id": "yikyak-8aecd",
+    "storage_bucket": "yikyak-8aecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188721151525:android:57318510dc546a37",
+        "android_client_info": {
+          "package_name": "com.example.franklong.madyikyak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188721151525-ssu9t8uerh82efajdt18s6dbpk2ghn0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-m5utfp4Y6Ejthjcp8Q0iXKBQXPvvkwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
+    <ImageView
+        android:contentDescription="Profile Picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/picture"
+        android:layout_margin="5dp"
+        />
 
     <TextView
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#00F"
+        android:layout_toRightOf="@id/picture"
         android:text="Username"/>
 
     <TextView
@@ -15,6 +26,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:layout_toRightOf="@id/picture"
+        android:layout_below="@id/username"
         android:text="post"/>
 
-</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_stamp"
+        android:text="10/23/14 09:12:45 PM"
+        android:layout_margin="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/username"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:id="@+id/divider"
+        android:src="@drawable/divider"
+        android:layout_below="@id/post_text"
+        />
+
+</RelativeLayout>

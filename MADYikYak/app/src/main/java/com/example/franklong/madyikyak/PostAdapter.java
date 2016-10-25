@@ -1,11 +1,15 @@
 package com.example.franklong.madyikyak;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -14,7 +18,8 @@ import java.util.ArrayList;
  */
 
 public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
-    private ArrayList<String> mDataset;
+    private ArrayList<String> mDataset, mUsername, mURL, mTimeStamp;
+    Context context;
 
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
@@ -24,17 +29,28 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
 
         public TextView usernameTextView;
         public TextView postTextView;
+        public TextView timestampTextView;
+        public ImageView profilePicture;
+        public ImageView divider;
         public ViewHolder(View v) {
             super(v);
             usernameTextView = (TextView) v.findViewById(R.id.username);
             postTextView = (TextView) v.findViewById(R.id.post_text);
+            timestampTextView = (TextView) v.findViewById(R.id.time_stamp);
+            profilePicture = (ImageView) v.findViewById(R.id.picture);
+            divider = (ImageView) v.findViewById(R.id.divider);
 
         }
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public PostAdapter(ArrayList<String> myDataset) {
+    public PostAdapter(ArrayList<String> myDataset, ArrayList<String> myUsername, ArrayList<String> myTimeStamp,
+                       ArrayList<String> myURL, Context myContext) {
         mDataset = myDataset;
+        mURL = myURL;
+        mUsername = myUsername;
+        mTimeStamp = myTimeStamp;
+        context = myContext;
     }
 
     // Create new views (invoked by the layout manager)
@@ -57,7 +73,10 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
         // - replace the contents of the view with that element
 
         holder.postTextView.setText(mDataset.get(position));
-        holder.usernameTextView.setText("MAD");
+        holder.usernameTextView.setText(mUsername.get(position));
+        holder.divider.setImageResource(R.drawable.divider);
+        holder.timestampTextView.setText(mTimeStamp.get(position));
+        Picasso.with(context).load(mURL.get(position)).into(holder.profilePicture);
 
         Log.v("position", position + "");
 
